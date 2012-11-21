@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">סינמטק שדרות</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!--  Films of the week layout -->
+    <string name="page_title">השבוע בסינמטק שדרות</string>
+    <string name="films_of_day_title_stub">סרטי היום:</string>
+    
+    
+</resources>
