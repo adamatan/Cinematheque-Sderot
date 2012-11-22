@@ -44,9 +44,9 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		LinearLayout entirePage = (LinearLayout) findViewById(R.id.entire_page_container);
-		ids = new TextView(this);
-		ids.setText("Ids: ");
-		entirePage.addView(ids, 1);
+		//ids = new TextView(this);
+		//ids.setText("Ids: ");
+		//entirePage.addView(ids, 1);
 
 		this.handler=new Handler();
 
@@ -82,7 +82,7 @@ public class MainActivity extends Activity {
 		@Override
 		protected void onPostExecute(Film f) {
 			if (f!=null) {
-				ids.setText(ids.getText()+" "+f.getDuration());
+				//ids.setText(ids.getText()+" "+f.getDuration());
 				for (Screening s:screenings) {
 					String uri = s.getFilmUri();
 					if (films.containsKey(uri) && f==films.get(uri)) {
